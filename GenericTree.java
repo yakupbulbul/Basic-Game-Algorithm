@@ -59,7 +59,6 @@ class GenericTree{
             a[i]=temp;
         }
         for(int i=a.length-1; i>=0; i--) {
-            //System.out.print(a[i]+" ");
             if(i==0){
                 list=list+a[i];
             }else{
